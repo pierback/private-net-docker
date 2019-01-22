@@ -14,7 +14,7 @@ mkdir -p /var/log
     --txpool.journal '' \
     --rpc \
     --rpcaddr 'localhost' \
-    --rpcport 8545 \
+    --rpcport 8501 \
     --rpcapi 'personal,db,eth,net,web3,txpool,miner,debug' \
     --networkid 50 \
     --gasprice '0' \
