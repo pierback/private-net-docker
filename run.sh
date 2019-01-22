@@ -4,7 +4,7 @@ set -e
 mkdir -p /var/log
 
 # Start Geth and direct output to stdout
-geth \
+/ geth \
     --verbosity 5 \
     --datadir node0/ \
     --syncmode 'full' \
