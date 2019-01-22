@@ -1,0 +1,20 @@
+{
+  "name": "private-net-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker run -it --rm -p 8501:8501 private-net",
+    "build": "docker build -t private-net ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierback/private-net-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierback/private-net-docker/issues"
+  },
+  "homepage": "https://github.com/pierback/private-net-docker#readme"
+}
