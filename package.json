@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "docker run -it --rm -p 8501:8501 private-net",
-    "build": "docker build -t private-net ."
+    "build": "docker build -t private-net ./docker-test"
   },
   "repository": {
     "type": "git",
