@@ -1,0 +1,72 @@
+=============== Mar 3, 2019 (CET) ===============
+21:22:36.113459 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:22:36.114873 db@open opening
+21:22:36.116903 version@stat F·[] S·0B[] Sc·[]
+21:22:36.117615 db@janitor F·2 G·0
+21:22:36.118132 db@open done T·3.221351ms
+=============== Mar 3, 2019 (CET) ===============
+21:22:38.961459 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:22:38.961785 version@stat F·[] S·0B[] Sc·[]
+21:22:38.961816 db@open opening
+21:22:38.961927 journal@recovery F·1
+21:22:38.966711 journal@recovery recovering @1
+21:22:38.968639 memdb@flush created L0@2 N·38 S·2KiB "\x01h\xd3..q\xcb\v,v13":"\xf6t\x81..\xd1\x03\xde,v29"
+21:22:38.972951 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+21:22:38.975174 db@janitor F·3 G·0
+21:22:38.975232 db@open done T·13.393588ms
+=============== Mar 3, 2019 (CET) ===============
+21:22:55.176423 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:22:55.176750 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+21:22:55.176780 db@open opening
+21:22:55.176877 journal@recovery F·1
+21:22:55.180857 journal@recovery recovering @3
+21:22:55.182104 memdb@flush created L0@5 N·3 S·448B "Dat..ion,v40":"cli..\xa3\xb7\xd2,v42"
+21:22:55.185570 version@stat F·[2] S·3KiB[3KiB] Sc·[0.50]
+21:22:55.187416 db@janitor F·4 G·0
+21:22:55.187460 db@open done T·10.663557ms
+21:23:14.496961 db@close closing
+21:23:14.498740 db@close done T·1.774119ms
+=============== Mar 3, 2019 (CET) ===============
+21:23:20.795567 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:23:20.796150 version@stat F·[2] S·3KiB[3KiB] Sc·[0.50]
+21:23:20.796184 db@open opening
+21:23:20.796284 journal@recovery F·1
+21:23:20.799578 journal@recovery recovering @6
+21:23:20.800792 memdb@flush created L0@8 N·2 S·241B "Dat..ion,v44":"Las..der,v45"
+21:23:20.804185 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+21:23:20.806143 db@janitor F·5 G·0
+21:23:20.806199 db@open done T·9.99622ms
+21:28:29.016840 db@close closing
+21:28:29.018673 db@close done T·1.824968ms
+=============== Mar 3, 2019 (CET) ===============
+21:28:31.040842 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:28:31.041562 version@stat F·[3] S·3KiB[3KiB] Sc·[0.75]
+21:28:31.041599 db@open opening
+21:28:31.041702 journal@recovery F·1
+21:28:31.045497 journal@recovery recovering @9
+21:28:31.046641 memdb@flush created L0@11 N·2 S·241B "Dat..ion,v47":"Las..der,v48"
+21:28:31.049474 version@stat F·[4] S·3KiB[3KiB] Sc·[1.00]
+21:28:31.051048 db@janitor F·6 G·0
+21:28:31.051111 db@open done T·9.475358ms
+21:28:31.051167 table@compaction L0·4 -> L1·0 S·3KiB Q·49
+21:28:31.052644 table@build created L1@14 N·40 S·3KiB "\x01h\xd3..q\xcb\v,v13":"\xf6t\x81..\xd1\x03\xde,v29"
+21:28:31.052832 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+21:28:31.053087 table@compaction committed F-3 S-698B Ke·0 D·5 T·1.877653ms
+21:28:31.053240 table@remove removed @11
+21:28:31.053357 table@remove removed @8
+21:28:31.053484 table@remove removed @5
+21:28:31.053624 table@remove removed @2
+21:32:10.579389 db@close closing
+21:32:10.581153 db@close done T·1.761381ms
+=============== Mar 3, 2019 (CET) ===============
+21:37:56.279521 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:37:56.280901 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+21:37:56.281000 db@open opening
+21:37:56.281443 journal@recovery F·1
+21:37:56.285379 journal@recovery recovering @12
+21:37:56.286767 memdb@flush created L0@15 N·69 S·8KiB "\x1d\xae\x83..\xa1#!,v95":"\xfc\xa2\x9d..\xbaY(,v107"
+21:37:56.290226 version@stat F·[1 1] S·11KiB[8KiB 3KiB] Sc·[0.25 0.00]
+21:37:56.293133 db@janitor F·4 G·0
+21:37:56.293515 db@open done T·12.432362ms
+21:38:13.419342 db@close closing
+21:38:13.421526 db@close done T·2.178705ms
