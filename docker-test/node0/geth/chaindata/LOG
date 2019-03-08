@@ -70,3 +70,48 @@
 21:37:56.293515 db@open done T·12.432362ms
 21:38:13.419342 db@close closing
 21:38:13.421526 db@close done T·2.178705ms
+=============== Mar 6, 2019 (CET) ===============
+09:18:24.152636 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:18:24.153800 version@stat F·[1 1] S·11KiB[8KiB 3KiB] Sc·[0.25 0.00]
+09:18:24.153832 db@open opening
+09:18:24.153935 journal@recovery F·1
+09:18:24.157063 journal@recovery recovering @16
+09:18:24.158304 memdb@flush created L0@18 N·24 S·4KiB "\x1d\xae\x83..\xa1#!,v136":"\xc6\xd7\xc9..3\n,,v142"
+09:18:24.161447 version@stat F·[2 1] S·16KiB[13KiB 3KiB] Sc·[0.50 0.00]
+09:18:24.163157 db@janitor F·5 G·0
+09:18:24.163196 db@open done T·9.347769ms
+09:18:24.245702 db@close closing
+09:18:24.245909 db@close done T·206.109µs
+=============== Mar 6, 2019 (CET) ===============
+09:20:38.831754 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:20:38.832580 version@stat F·[2 1] S·16KiB[13KiB 3KiB] Sc·[0.50 0.00]
+09:20:38.832609 db@open opening
+09:20:38.832701 journal@recovery F·1
+09:20:38.837788 journal@recovery recovering @19
+09:20:38.838661 memdb@flush created L0@21 N·2 S·241B "Dat..ion,v145":"Las..der,v146"
+09:20:38.841383 version@stat F·[3 1] S·16KiB[13KiB 3KiB] Sc·[0.75 0.00]
+09:20:38.842870 db@janitor F·6 G·0
+09:20:38.842913 db@open done T·10.285455ms
+09:20:38.911831 db@close closing
+09:20:38.911979 db@close done T·147.24µs
+=============== Mar 6, 2019 (CET) ===============
+09:21:17.722436 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:21:17.722759 version@stat F·[3 1] S·16KiB[13KiB 3KiB] Sc·[0.75 0.00]
+09:21:17.722787 db@open opening
+09:21:17.722883 journal@recovery F·1
+09:21:17.725941 journal@recovery recovering @22
+09:21:17.727324 memdb@flush created L0@24 N·2 S·241B "Dat..ion,v148":"Las..der,v149"
+09:21:17.730283 version@stat F·[4 1] S·16KiB[13KiB 3KiB] Sc·[1.00 0.00]
+09:21:17.731977 db@janitor F·7 G·0
+09:21:17.732026 db@open done T·9.218389ms
+09:21:17.732146 table@compaction L0·4 -> L1·1 S·16KiB Q·150
+09:21:17.734273 table@build created L1@27 N·109 S·13KiB "\x01h\xd3..q\xcb\v,v13":"\xfc\xa2\x9d..\xbaY(,v107"
+09:21:17.734365 version@stat F·[0 1] S·13KiB[0B 13KiB] Sc·[0.00 0.00]
+09:21:17.734649 table@compaction committed F-4 S-2KiB Ke·0 D·28 T·2.408665ms
+09:21:17.734833 table@remove removed @24
+09:21:17.734974 table@remove removed @21
+09:21:17.735155 table@remove removed @18
+09:21:17.735291 table@remove removed @15
+09:21:17.735497 table@remove removed @14
+09:21:17.825590 db@close closing
+09:21:17.825861 db@close done T·281.693µs
